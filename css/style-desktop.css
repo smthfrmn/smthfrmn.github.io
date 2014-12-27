@@ -330,10 +330,9 @@
 					margin-top: 0;
 				}
 				
-		#contact.panel {
-			width: 20em;
-			display: block;
-			margin-left: 10em;
+		#resume.panel {
+			padding-left: 35px;
+			padding-top: 35px;
 		}
 		
 		#main #skills {
