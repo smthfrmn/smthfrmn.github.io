@@ -257,6 +257,7 @@
 				{
 					position: relative;
 					display: block;
+					float: right;
 					height: 100%;
 				}
 			
