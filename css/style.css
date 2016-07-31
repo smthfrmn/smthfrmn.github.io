@@ -10,6 +10,7 @@
 
 ul#personal-information {
     list-style: none;
+    margin: inherit;
 }
 ul > li {
     text-align: center;
