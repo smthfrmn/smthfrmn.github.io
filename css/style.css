@@ -2,6 +2,10 @@
 @import url('http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic');
 @import url('font-awesome.min.css');
 
+html {
+    font-family: helvetica;
+}
+
 #nugget {
     width: 600px;
     display: block;
@@ -11,14 +15,114 @@
 ul#personal-information {
     list-style: none;
     margin: inherit;
+    color: #fff;
 }
+
+a.writing {
+    color: #fff;
+}
+
+div#title {
+     color: #fff;
+     width: 550px;
+     margin: 50 auto 30 auto;
+     font-family: monospace;
+     font-size: 40px;
+
+}
+
 ul > li {
     text-align: center;
+}
+
+div#samples > div{
+    width: 950px;
+    height: 330px;
+    margin: 0 auto;
+}
+
+div.heading {
+    width: 10%;
+    float: left;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: bold;
+    margin-right: 25px;
+}
+
+div.box {
+    max-width: 41%;
+    display: inline-block;
+    float: left;
+    margin-right: 20px;
+    position: relative;
+}
+
+div.overlay {
+    position: fixed;
+    background-color:rgba(255,0,0, 0.3);
+    opacity: 0;
+    height: 60px; 
+    text-align: center; 
+    top: 0;
+    z-index: 200px;
+}
+
+div#album-reviews > div {
+    max-width: 27%;
+}
+
+span.text-content {
+    background: rgba(0,0,0,0.5);
+    color: #c32700;
+    cursor: pointer;
+    display: table;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 101%;
+}
+
+span.text-content span {
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 5px;
+}
+
+a > img:hover span.text-content {
+  opacity: 1;
+}
+
+a > img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+
+a > img:hover {
+    -moz-box-shadow: 0 0 30px #fff;
+    -webkit-box-shadow: 0 0 30px #fff;
+    box-shadow: 0px 0px 30px #fff;
+}
+
+span > img.logo {
+    display: block;
+    width: 100px;
+    margin: 20 auto;
+}
+
+#writing {
+
+    background-color: #000;
 }
 
 .icon {
         position: relative;
         text-decoration: none;
+	color: #fff;
     }
 
         .icon:before {
