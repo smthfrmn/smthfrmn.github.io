@@ -4,6 +4,8 @@
 
 html {
     font-family: helvetica;
+    background: #000;
+    color: #fff;
 }
 
 #nugget {
@@ -13,7 +15,6 @@ html {
 }
 
 div#personal-information {
-    list-style: none;
     width: 350px;
     text-align: center;
     margin: 0 auto 30 auto;
@@ -26,17 +27,34 @@ div#personal-information > a {
 
 }
 
+ul#contact {
+    list-style: none;
+}
+
+ul#contact > li {
+    margin-bottom: 8px;
+}
+
+ul#contact > li > a {
+    padding: 5px;
+}
+
+
 a.writing {
     color: #fff;
 }
 
 div#title {
-     color: #fff;
      width: 350px;
      margin: 50 auto 10 auto;
      font-family: monospace;
      font-size: 40px;
      text-align: center;
+}
+
+div#title > a {
+    text-decoration: none;
+    color: #fff;
 }
 
 ul > li {
