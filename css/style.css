@@ -27,8 +27,21 @@ div#personal-information > a {
 
 }
 
+div#content {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+}
+
 ul#contact {
     list-style: none;
+    padding: 0px;
 }
 
 ul#contact > li {
@@ -164,17 +177,18 @@ span > img.logo {
         text-decoration: none;
 	color: #fff;
 	cursor: pointer;
+        font-size: xx-large;
     }
 
-        .icon:before {
-            -moz-osx-font-smoothing: grayscale;
-            -webkit-font-smoothing: antialiased;
-            font-family: FontAwesome;
-            font-style: normal;
-            font-weight: normal;
-            text-transform: none !important;
-        }
+.icon:before {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: none !important;
+}
 
-        .icon > .label {
-            display: none;
-        };
+.icon > .label {
+    display: none;
+};
