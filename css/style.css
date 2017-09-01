@@ -193,6 +193,11 @@ span > img.logo {
         font-size: xx-large;
     }
 
+.icon:hover {
+    text-decoration: underline;
+}
+
+
 .icon:before {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
